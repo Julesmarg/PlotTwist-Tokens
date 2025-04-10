@@ -1,0 +1,66 @@
+{
+  "color": {
+    "primary": {
+      "babyPink": {
+        "value": "#ff88b1",
+        "type": "color"
+      },
+      "watermelon": {
+        "value": "#f45b8c",
+        "type": "color"
+      },
+      "hotPink": {
+        "value": "#dc0f76",
+        "type": "color"
+      },
+      "raspberry": {
+        "value": "#871034",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "graphite": {
+        "value": "#333333",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    }
+  },
+  "radius": {
+    "rounded": {
+      "value": "12px",
+      "type": "borderRadius"
+    }
+  },
+  "effect": {
+    "dropShadow": {
+      "value": {
+        "x": "0",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.2)",
+        "type": "dropShadow"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": {
+        "value": "Archivo Black",
+        "type": "fontFamily"
+      },
+      "secondary": {
+        "value": "Be Vietnam Pro",
+        "type": "fontFamily"
+      }
+    }
+  }
+}
