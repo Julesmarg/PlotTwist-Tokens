@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_baby_pink">#FFFF88B1</color>
+    <color name="primary_watermelon">#FFF45B8C</color>
+    <color name="primary_hot_pink">#FFDC0F76</color>
+    <color name="primary_raspberry">#FF871034</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_graphite">#FF333333</color>
+    <color name="secondary_black">#FF000000</color>
+    <color name="secondary_white">#FFFFFFFF</color>
+    
+    <!-- Border Radius -->
+    <dimen name="radius_rounded">12dp</dimen>
+    
+    <!-- Typography -->
+    <string name="font_primary">archivo_black</string>
+    <string name="font_secondary">be_vietnam_pro</string>
+    
+    <!-- Elevation/Shadow -->
+    <dimen name="elevation_drop_shadow">4dp</dimen>
+    
+    <!-- Style definitions -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_hot_pink</item>
+        <item name="colorPrimaryDark">@color/primary_raspberry</item>
+        <item name="colorAccent">@color/primary_baby_pink</item>
+        <!-- Add additional theme attributes as needed -->
+    </style>
+</resources>
