@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System Tokens</title>
+    <style>
+        :root {
+            /* Primary Colors */
+            --color-primary-baby-pink: #ff88b1;
+            --color-primary-watermelon: #f45b8c;
+            --color-primary-hot-pink: #dc0f76;
+            --color-primary-raspberry: #871034;
+            
+            /* Secondary Colors */
+            --color-secondary-graphite: #333333;
+            --color-secondary-black: #000000;
+            --color-secondary-white: #ffffff;
+            
+            /* Border Radius */
+            --radius-rounded: 12px;
+            
+            /* Typography */
+            --font-family-primary: 'Archivo Black', sans-serif;
+            --font-family-secondary: 'Be Vietnam Pro', sans-serif;
+            
+            /* Font Sizes (common scales) */
+            --font-size-xs: 0.75rem;    /* 12px */
+            --font-size-sm: 0.875rem;   /* 14px */
+            --font-size-md: 1rem;       /* 16px */
+            --font-size-lg: 1.125rem;   /* 18px */
+            --font-size-xl: 1.25rem;    /* 20px */
+            --font-size-2xl: 1.5rem;    /* 24px */
+            
+            /* Shadows */
+            --shadow-drop: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Utility Classes */
+        .text-primary {
+            font-family: var(--font-family-primary);
+        }
+        
+        .text-secondary {
+            font-family: var(--font-family-secondary);
+        }
+        
+        .rounded {
+            border-radius: var(--radius-rounded);
+        }
+        
+        .shadow {
+            box-shadow: var(--shadow-drop);
+        }
+        
+        /* Color Classes */
+        .bg-baby-pink {
+            background-color: var(--color-primary-baby-pink);
+        }
+        
+        .bg-watermelon {
+            background-color: var(--color-primary-watermelon);
+        }
+        
+        .bg-hot-pink {
+            background-color: var(--color-primary-hot-pink);
+        }
+        
+        .bg-raspberry {
+            background-color: var(--color-primary-raspberry);
+        }
+        
+        .bg-graphite {
+            background-color: var(--color-secondary-graphite);
+        }
+        
+        .bg-black {
+            background-color: var(--color-secondary-black);
+        }
+        
+        .bg-white {
+            background-color: var(--color-secondary-white);
+        }
+        
+        /* Text color classes */
+        .text-baby-pink {
+            color: var(--color-primary-baby-pink);
+        }
+        
+        .text-watermelon {
+            color: var(--color-primary-watermelon);
+        }
+        
+        .text-hot-pink {
+            color: var(--color-primary-hot-pink);
+        }
+        
+        .text-raspberry {
+            color: var(--color-primary-raspberry);
+        }
+        
+        .text-graphite {
+            color: var(--color-secondary-graphite);
+        }
+        
+        .text-black {
+            color: var(--color-secondary-black);
+        }
+        
+        .text-white {
+            color: var(--color-secondary-white);
+        }
+    </style>
+</head>
+<body>
+    <h1>Design System Token Reference</h1>
+    
+    <section>
+        <h2>Primary Colors</h2>
+        <div style="display: flex; gap: 1rem;">
+            <div class="bg-baby-pink rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-black">#ff88b1</span>
+            </div>
+            <div class="bg-watermelon rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-white">#f45b8c</span>
+            </div>
+            <div class="bg-hot-pink rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-white">#dc0f76</span>
+            </div>
+            <div class="bg-raspberry rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-white">#871034</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Secondary Colors</h2>
+        <div style="display: flex; gap: 1rem;">
+            <div class="bg-graphite rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-white">#333333</span>
+            </div>
+            <div class="bg-black rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-white">#000000</span>
+            </div>
+            <div class="bg-white rounded shadow" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center; border: 1px solid #eee;">
+                <span class="text-black">#ffffff</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Typography</h2>
+        <p class="text-primary" style="font-size: var(--font-size-xl);">Primary Font: Archivo Black</p>
+        <p class="text-secondary" style="font-size: var(--font-size-lg);">Secondary Font: Be Vietnam Pro</p>
+    </section>
+    
+    <section>
+        <h2>Border Radius</h2>
+        <div class="rounded bg-baby-pink" style="width: 200px; height: 50px; display: flex; align-items: center; justify-content: center;">
+            <span>Rounded: 12px</span>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Shadow Effect</h2>
+        <div class="shadow bg-white" style="width: 200px; height: 50px; display: flex; align-items: center; justify-content: center; margin: 2rem;">
+            <span>Drop Shadow</span>
+        </div>
+    </section>
+</body>
+</html>
